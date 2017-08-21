@@ -1,4 +1,5 @@
 ---
 ---
 
-@import 'Semantic-UI-CSS/semantic.min.css';
+@import "normalize";
+@import "main"
