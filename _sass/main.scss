@@ -73,8 +73,11 @@ div {
 .logo-banner .slogan {
   font-size: 80px;
   font-weight: 300;
-  line-height: 110%;
+  line-height: 150%;
   margin: 15px;
   color: #fff;
   max-width: 50%;
+  strong {
+    font-weight: bold;
+  }
 }
