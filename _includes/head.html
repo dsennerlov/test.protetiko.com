@@ -5,6 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:300,700,100,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-  <link href="/assets/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="{{ /assets/images/favicon.ico | relative_url }}" rel="shortcut icon" type="image/vnd.microsoft.icon" />
   <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ',' }},{{ site.keywords }}{% else %}{{ site.keywords }}{% endif %}">
 </head>
