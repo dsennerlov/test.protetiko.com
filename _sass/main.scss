@@ -1,6 +1,10 @@
 @import "normalize";
 @import "variables";
 
+html, body {
+  height: 100%;
+}
+
 body {
   font-size: 14px;
   line-height: 1.4285em;
@@ -11,6 +15,8 @@ body {
   margin: 0;
   padding: 0;
   outline: none;
+  overflow-x: hidden;
+  min-width: 320px;
 }
 
 body, h1, h2, h3, h4, h5 {
@@ -33,10 +39,6 @@ div {
 }
 
 .splash-page-layout {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  outline: none;
   display:flex;
   flex-direction:column;
   min-height: 100%;
@@ -76,5 +78,19 @@ div {
   color: #fff;
   strong {
     font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .logo-banner .slogan {
+    font-size: 60px;
+    line-height: 120%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo-banner .slogan {
+    font-size: 40px;
+    line-height: 110%;
   }
 }
