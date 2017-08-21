@@ -1,1 +1,9 @@
+---
+name:
 theme: jekyll-theme-cayman
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- Rakefile
+- vendor/bundle
