@@ -1,7 +1,8 @@
 ---
 name: protetiko.com
 title: protetiko.com
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+url: protetiko.com
 exclude:
 - Gemfile
 - Gemfile.lock
