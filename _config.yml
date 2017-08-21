@@ -5,6 +5,7 @@ description: Protetiko is the new standard in dental order management.
 keywords: dental order management prosthetics
 url: protetiko.com
 baseurl: /test.protetiko.com
+theme:
 exclude:
 - Gemfile
 - Gemfile.lock
