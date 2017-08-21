@@ -6,6 +6,11 @@ body {
   line-height: 1.4285em;
   background-color: #40ada6;
   color: rgba(0,0,0,.87);
+  display: block;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
 
 body, h1, h2, h3, h4, h5 {
@@ -60,18 +65,7 @@ div {
   text-size-adjust:100%;
   width:1903px;
 }
-.slogan-banner {
-  background-color:rgb(64, 173, 167);
-  box-sizing:border-box;
-  height:340px;
-  line-height:20px;
-  padding-bottom:40px;
-  padding-left:0px;
-  padding-right:0px;
-  padding-top:40px;
-  text-size-adjust:100%;
-  width:1903px;
-}
+
 .logo-banner .logo {
   border-style:none;
   box-sizing:border-box;
@@ -87,4 +81,14 @@ div {
   font-size: 40px;
   color: #fff;
   text-align: center;
+}
+
+.logo-banner .slogan {
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 110%;
+  margin: 15px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
 }
