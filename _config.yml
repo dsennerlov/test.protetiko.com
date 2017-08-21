@@ -1,6 +1,8 @@
 ---
 name: protetiko.com
 title: protetiko.com
+description: Protetiko is the new standard in dental order management.
+keywords:
 #theme: jekyll-theme-cayman
 url: protetiko.com
 exclude:
@@ -9,4 +11,10 @@ exclude:
 - README.md
 - Rakefile
 - vendor/bundle
+- .gitignore
 google_analytics:
+defaults:
+- scope:
+    path: "assets/images"
+  values:
+    image: true
