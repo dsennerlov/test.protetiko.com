@@ -1,11 +1,15 @@
 
+ @import "variables";
+
 .logo-banner {
   background-color:rgb(64, 173, 167);
   box-sizing:border-box;
   color:rgba(255, 255, 255, 0.0);
   display:block;
-  font-family:Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
-  font-size:14px;
+  font {
+    family:Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    size:14px;
+  };
   height:340px;
   line-height:20px;
   padding-bottom:40px;
