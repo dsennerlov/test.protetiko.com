@@ -1,5 +1,6 @@
 ---
-name:
+name: protetiko.com
+title: protetiko.com
 theme: jekyll-theme-cayman
 exclude:
 - Gemfile
@@ -7,3 +8,4 @@ exclude:
 - README.md
 - Rakefile
 - vendor/bundle
+google_analytics:
