@@ -1,4 +1,6 @@
---- layout: default ---
+---
+layout: default
+---
 <div id='page-body'>
   <section class='section section-intro' id='section1'>
     <div class='section-inner'>
