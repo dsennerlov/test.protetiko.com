@@ -24,10 +24,6 @@ body, h1, h2, h3, h4, h5 {
   font-family: 'Roboto Slab', Trebuchet MS, sans-serif;
 }
 
-div {
-  display: block;
-}
-
 .splash-page-layout {
   display:flex;
   flex-direction:column;
@@ -42,7 +38,6 @@ div {
   padding-left:0px;
   padding-right:0px;
   padding-top:40px;
-  text-size-adjust:100%;
   text-align: center;
 }
 
