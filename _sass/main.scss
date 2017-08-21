@@ -47,7 +47,6 @@ div {
 
 .logo-banner {
   box-sizing:border-box;
-  height:340px;
   line-height:20px;
   padding-bottom:40px;
   padding-left:0px;
@@ -58,18 +57,19 @@ div {
 }
 
 .logo-banner .logo {
+ // text-align: center;
   border-style:none;
   box-sizing:border-box;
   display:block;
   height:94px;
-  margin:0;
+  margin:auto;
   max-width:80px;
   text-size-adjust:100%;
   width:160px;
 }
 
 .logo-banner .logo-banner-header {
-  font-size: 40px;
+  font-size: 25px;
   color: #fff;
   text-align: center;
   font-family: 'Open Sans';
